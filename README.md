@@ -48,7 +48,7 @@ The modules in this package are all designed to be imported using `as` to
 
 ```elm
 import OpenSolid.Point3d as Point3d exposing (Point3d)
-import OpenSolid.WebGLMath.Interop.Point3d as Point3d
+import OpenSolid.Interop.WebGLMath.Point3d as Point3d
 ```
 
 will let you use functions from both modules as if they were part of one big
